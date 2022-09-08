@@ -1,0 +1,233 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Reset End */
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+img {
+	vertical-align: top;
+	/* max-width: 100%; */
+}
+a{
+	text-decoration: none;
+	color:#000
+}
+a:hover{
+	color:#707070;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.container-fluid {
+	min-width: 100%;
+}
+.w-100 {
+	width: 100%;
+}
+.header {
+	width: 100%;
+  height: 958px;
+  background-image: url("../img/banner.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border: 1px solid #707070;
+}
+.h1 {
+  font-size: 80px;
+	line-height: 1.325;
+}
+.h1 span {
+	display: block;
+}
+.h2 {
+	font-size: 64px;
+	line-height: 1.1325;
+}
+.d-flex {
+	display: flex;
+}
+.flex-column {
+	flex-direction:column;
+}
+.justify-content-center {
+	justify-content: center;
+}
+
+.align-items-center {
+	align-items: center;
+}
+.fz-24 {
+	font-size: 24px;
+}
+.font-weight-bold {
+	font-weight: bold;
+}
+.font-weight-900{
+	font-weight: 900;
+}
+.font-style-italic {
+	font-style: italic;
+}
+.text-white {
+	color:#fff;
+}
+.text-center {
+	text-align: center;
+}
+.list-style-row li {
+	margin-right: 16px;
+}
+.list-style-row li:last-child {
+margin-right: 0;
+}
+.mr-24 {
+	margin-right: 24px;
+}
+.mb-8 {
+	margin-bottom: 8px;
+}
+.mb-12{
+	margin-bottom: 12px;
+}
+.mb-16 {
+	margin-bottom: 16px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.mb-28 {
+	margin-bottom: 28px;
+}
+.mb-32 {
+	margin-bottom: 32px;
+}
+.mb-40 {
+	margin-bottom: 40px;
+}
+.mb-48 {
+	margin-bottom: 48px;
+}
+.mb-56 {
+	margin-bottom: 56px;
+}
+.mb-80 {
+	margin-bottom: 80px;
+}
+.mb-144 {
+	margin-bottom: 144px;
+}
+.pb-68 {
+	padding-bottom: 68px;
+}
+.pb-80 {
+	padding-bottom: 80px;
+}
+.pt-56 {
+	padding-top: 56px;
+}
+.py-64 {
+	padding: 64px 0;
+}
+.border-bottom {
+	border-bottom: 1px solid #000;
+}
+.about-info li:last-child {
+	display: inline-block;
+	padding-bottom: 24px;
+	line-height: 1.75;
+	border-bottom: 1px solid #000;
+}
+.about-list li:before {
+	content: "";
+	width: 22px;
+	height: 22px;
+	background-color: #891818;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+.personnel-info {
+	font-size: 20px;
+	background: #000;
+	color: #fff
+}
+.work-list>p {
+	font-size: 20px;
+}
+
+.work-list li {
+	margin-right: 24px;
+}
+.work-list p {
+	text-align: center;
+	padding-top: 16px;
+}
+.work-list li:last-child {
+	margin-right: 0;
+}
+.bg-black {
+	background-color: #000;
+}
+
+.bg-black a {
+	color: #fff;
+}
+.bg-black a:hover {
+	color:#891818;
+}
